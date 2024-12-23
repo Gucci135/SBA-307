@@ -1,0 +1,135 @@
+/* General Styles */
+
+.profile-container img {
+  width: 100px;  /* Adjust the size of profile picture */
+  height: 100px;
+  border-radius: 50%;
+  flex: 1;
+  justify-content: left;
+  /* display: flex; */
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; /* Makes the title take up the remaining space to the right */
+  
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+    color: #333;
+  }
+  
+  header {
+    /* display: flex; */
+    background-color: #646790;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    color: #DDE2C6;
+  } 
+  
+  
+  h2 {
+    color: #1E3A8A;
+  }
+  
+  /* Layout */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .item {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #646790;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #4F46E5;
+    transform: scale(1.1);
+  }
+  
+  /* Animation */
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Form Styles */
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Table */
+
+  .table {
+    /* padding: 10px; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+  }
+
+  .carousel{
+    width: 800px;
+    height: 400px;
+  }
+
+  .contact-gif {
+    
+    width: 10%;
+    max-width: 300px;
+    margin-top: 20px;
+    border-radius: 2px;
+    
+
+  }
+  
